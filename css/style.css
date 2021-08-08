@@ -1,4 +1,4 @@
-body {
+* {
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -17,4 +17,13 @@ img {
 ul {
 	list-style: none;
 	padding: 0;
+}
+
+#landing {
+	height: 80vh;
+	/* Center the elements vertically */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
